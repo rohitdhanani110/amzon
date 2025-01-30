@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Clone</title>
+</head>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232F3E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.features {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.products {
+    padding: 20px;
+}
+
+.products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products li {
+    margin: 10px;
+    width: 200px;
+}
+
+footer {
+    background-color: #232F3E;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+  </style>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Amazon Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Amazon</h1>
+            <p>Find great deals on products from around the world</p>
+            <button>Shop Now</button>
+        </section>
+        <section class="features">
+            <h2>Why Choose Amazon?</h2>
+            <ul>
+                <li><i class="fas fa-check"></i> Fast Shipping</li>
+                <li><i class="fas fa-check"></i> Competitive Prices</li>
+                <li><i class="fas fa-check"></i> Secure Checkout</li>
+            </ul>
+        </section>
+        <section class="products">
+            <h2>Best Sellers</h2>
+            <ul>
+                <li>
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$19.99</p>
+                </li>
+                <li>
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$29.99</p>
+                </li>
+                <li>
+                    <img src="product3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$39.99</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Amazon Clone</p>
+    </footer>
+</body>
+</html>
